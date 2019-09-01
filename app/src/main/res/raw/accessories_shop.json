@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "original_id": "7",
+      "name": "SkullCandy Hesh 3",
+      "value": 4100,
+      "rating": 4.3,
+      "abstract": "Featuring a subtle yet premium look and feel, Hesh 3 is the latest version of our most popular go-anywhere headphone. Praised for its durability and powerful audio, Hesh 3 is your favorite headphone with more tech than ever.",
+      "logo": "https://images-na.ssl-images-amazon.com/images/I/71WrFkyxeNL._SX679_.jpg",
+      "images":{
+        "image 0": "https://images-na.ssl-images-amazon.com/images/I/71WrFkyxeNL._SX679_.jpg",
+        "image 1": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwijs5KOjYngAhXOzIUKHfXsAzwQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.pcmag.com%252Freview%252F356532%252Fskullcandy-hesh-3%26psig%3DAOvVaw3VapB0b1lpRAmsJCGLhpoN%26ust%3D1548511510643435&psig=AOvVaw3VapB0b1lpRAmsJCGLhpoN&ust=1548511510643435",
+        "image 2": "https://images-na.ssl-images-amazon.com/images/I/718m0-oLYaL._SX425_.jpg"
+      }
+    },
+    {
+      "original_id": "8",
+      "name": "Bluedio",
+      "rating": 4.5,
+      "value": 10,
+      "abstract": "5.0 inches (~67.4% screen-to-body ratio)\n\n720 x 1280 pixels, 16:9 ratio (~294 ppi density)\n\n8 GB, 1 GB RAM\n\nmicroSD, up to 128 GB (dedicated slot)\n\nNon-removable Li-Ion 4100 mAh battery\n\nAndroid 7.1.1 (Nougat)",
+      "logo": "https://images-na.ssl-images-amazon.com/images/I/61po9PsntuL._SX466_.jpg",
+      "images":{
+        "image 0": "https://images-na.ssl-images-amazon.com/images/I/61po9PsntuL._SX466_.jpg",
+        "image 1": "https://images-na.ssl-images-amazon.com/images/I/61R5kRjHkML._SY355_.jpg",
+        "image 2": "https://cf2.s3.souqcdn.com/item/2015/09/23/91/31/74/5/item_XL_9131745_9674099.jpg"
+      }},
+    {
+      "original_id": "9",
+      "name": "Beats by Dre Solo",
+      "rating": 3.5,
+      "value": 3500,
+      "abstract": "5.5 inches (~70.7% screen-to-body ratio)\n\n1080 x 1920 pixels, 16:9 ratio (~403 ppi density)\n\n32 GB, 3 GB RAM or 64 GB, 4 GB RAM \n\nmicroSD, up to 256 GB (uses SIM 2 slot)\n\nNon-removable Li-Ion 3000 mAh battery\n\nAndroid 7.1.1 (Nougat)Android 7.1.1 (Nougat)",
+      "logo": "https://icdn2.digitaltrends.com/image/monster-beats-solo-g2-1200x630-c-ar1.91.jpg?ver=1",
+      "images":{
+        "image 0": "https://icdn2.digitaltrends.com/image/monster-beats-solo-g2-1200x630-c-ar1.91.jpg?ver=1",
+        "image 1": "https://i.ebayimg.com/images/g/vYwAAOSwHMJYLaUU/s-l300.jpg",
+        "image 2": "https://images.store.hmv.com/app_/responsive/HMVStore/media/product/1135/01-1135.jpg?w=500"
+      }}
+  ]
+}

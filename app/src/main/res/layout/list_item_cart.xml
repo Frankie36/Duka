@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/llForeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="12dp"
+        android:paddingTop="16dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="16dp">
+
+        <CheckBox
+            android:id="@+id/chckbxCart"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginRight="5dp"
+            android:longClickable="false" />
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="11dp">
+
+            <TextView
+                android:id="@+id/tvProduct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:text="Product Title" />
+
+
+            <TextView
+                android:id="@+id/tvCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="14dp"
+                android:textStyle="normal"
+                tools:text="Ksh 250.00" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imgRemove"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:gravity="center"
+                    android:src="@drawable/ic_remove_circle_outline_black_24dp"
+                    android:tint="@color/body_text_3" />
+
+                <TextView
+                    android:id="@+id/tvProductQty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="01"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_small" />
+
+                <ImageView
+                    android:id="@+id/imgAdd"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:gravity="center"
+                    android:src="@drawable/ic_add_circle_outline_black_24dp"
+                    android:tint="@color/body_text_3" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_delete_black_24dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

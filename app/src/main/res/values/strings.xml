@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Duka</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_phones">Phones</string>
+    <string name="title_tablets">Tablets</string>
+    <string name="title_accessories">Accessories</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_cart">Cart</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_no_cart_items">Empty</string>
+    <string name="content_no_cart_items">There are currently no items in your cart</string>
+    <string name="try_again">Try Again</string>
+    <string name="sorry">Sorry</string>
+    <string name="total">Total</string>
+    <string name="buy">Buy</string>
+    <string name="added_cart">Added to Cart</string>
+    <string name="removed_cart">Removed from cart</string>
+    <string name="title_activity_product_detail">Product Detail</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="err_phone">Enter a valid phone number</string>
+    <string name="phone_number">Enter Phone</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

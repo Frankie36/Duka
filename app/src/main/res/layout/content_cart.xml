@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:activity="activity.CartActivity"
+    tools:showIn="@layout/activity_cart">
+
+    <com.santalu.emptyview.EmptyView
+        android:id="@+id/empCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ev_empty_backgroundColor="@color/emp_empty_background"
+        app:ev_empty_drawable="@drawable/ic_sentiment_dissatisfied_black"
+        app:ev_empty_drawableTint="@color/emp_empty_drawable"
+        app:ev_empty_text="@string/content_no_cart_items"
+        app:ev_empty_textColor="@color/emp_empty_text"
+        app:ev_empty_title="@string/title_no_cart_items"
+        app:ev_empty_titleTextColor="@color/emp_empty_title"
+        app:ev_error_backgroundColor="@color/emp_error_background"
+        app:ev_error_button="@string/try_again"
+        app:ev_error_buttonTextColor="@color/emp_error_button_text"
+        app:ev_error_drawable="@drawable/ic_sentiment_very_dissatisfied_black"
+        app:ev_error_drawableTint="@color/emp_error_drawable"
+        app:ev_error_text="@string/error_connection"
+        app:ev_error_textColor="@color/emp_error_text"
+        app:ev_error_title="@string/sorry"
+        app:ev_error_titleTextColor="@color/emp_error_title"
+        app:ev_font="@font/font_montserrat"
+        app:ev_loading_type="circular"
+        app:ev_transition="auto">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp"
+            android:orientation="vertical"
+            tools:listitem="@layout/list_item_cart" />
+
+    </com.santalu.emptyview.EmptyView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total"
+                    android:textColor="@color/body_text_2"
+                    android:textSize="@dimen/text_size_small" />
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Ksh 0.00"
+                    android:textColor="@color/body_text_1"
+                    android:textSize="@dimen/text_size_large"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnBuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:text="@string/buy"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "original_id": "1",
+      "name": "Nokia 8",
+      "value": 4100,
+      "rating": 4.3,
+      "abstract": "5.3 inches (~69.4% screen-to-body ratio)\n\n1440 x 2560 pixels (~554 ppi pixel density)\n\n64 GB, 4 GB RAM or 128GB, 6GB RAM\n\nmicroSD, up to 256 GB (uses SIM 2 slot)\n\nNon-removable Li-Ion 3090mAh battery\n\nAndroid 7.1.1 (Nougat)",
+      "logo": "https://onlineshoppingkenya.com/wp-content/uploads/2017/12/nokia-8.png",
+      "images":{
+        "image 0": "https://onlineshoppingkenya.com/wp-content/uploads/2017/12/nokia-8.png",
+        "image 1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3HXpp3XpTaY1P9vR3PmywujuETZT0ccDftIHK3tE7cRQe1DNUw",
+        "image 2": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/nokia-8_559_081817083402.jpg"
+      }
+    },
+    {
+      "original_id": "2",
+      "name": "LG V40",
+      "rating": 4.5,
+      "value": 10,
+      "abstract": "5.0 inches (~67.4% screen-to-body ratio)\n\n720 x 1280 pixels, 16:9 ratio (~294 ppi density)\n\n8 GB, 1 GB RAM\n\nmicroSD, up to 128 GB (dedicated slot)\n\nNon-removable Li-Ion 4100 mAh battery\n\nAndroid 7.1.1 (Nougat)",
+      "logo": "https://cnet2.cbsistatic.com/img/YL7hyr9UR04v0jN0JtHd6D9LONE=/830x467/2018/10/01/ef52a137-87d6-4dc6-be2c-b5e471be5024/lg-v40-thinq-8709.jpg",
+      "images":{
+        "image 0": "https://cnet2.cbsistatic.com/img/YL7hyr9UR04v0jN0JtHd6D9LONE=/830x467/2018/10/01/ef52a137-87d6-4dc6-be2c-b5e471be5024/lg-v40-thinq-8709.jpg",
+        "image 1": "https://www.lg.com/us/mobile-phones/v40-thinq/assets/images/design/true-colors.jpg",
+        "image 2": "https://static.toiimg.com/photo/63855559/LG-V40.jpg"
+      }},
+    {
+      "original_id": "3",
+      "name": "Galaxy S9",
+      "rating": 3.5,
+      "value": 7000,
+      "abstract": "5.5 inches (~70.7% screen-to-body ratio)\n\n1080 x 1920 pixels, 16:9 ratio (~403 ppi density)\n\n32 GB, 3 GB RAM or 64 GB, 4 GB RAM \n\nmicroSD, up to 256 GB (uses SIM 2 slot)\n\nNon-removable Li-Ion 3000 mAh battery\n\nAndroid 7.1.1 (Nougat)Android 7.1.1 (Nougat)",
+      "logo": "https://i.gadgets360cdn.com/products/large/1519585124_635_samsung_galaxy_s9_blue.jpg",
+      "images":{
+        "image 0": "https://i.gadgets360cdn.com/products/large/1519585124_635_samsung_galaxy_s9_blue.jpg",
+        "image 1": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-.jpg",
+        "image 2": "https://www.t-mobile.com/content/dam/t-mobile/en-p/cell-phones/samsung/samsung-galaxy-s9/lilac-purple/Samsung-Galaxy-S9-Lilac-Purple-2-3x.jpg"
+      }}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "204038809140",
+    "firebase_url": "https://duka-66602.firebaseio.com",
+    "project_id": "duka-66602",
+    "storage_bucket": "duka-66602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204038809140:android:a8f5943cb6b081ab",
+        "android_client_info": {
+          "package_name": "com.mystique.android.duka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204038809140-jmju4uubi6co0kkkmdjli1j1103o6orm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNdRsy_y00mBg6LfoyuaqpN7HWQAS0TtQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

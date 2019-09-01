@@ -1,0 +1,27 @@
+<resources >
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_slim">4dp</dimen>
+    <dimen name="spacing_micro">3dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+
+
+    <dimen name="product_image_size">72dp</dimen>
+    <dimen name="product_image_size_large">144dp</dimen>
+    <dimen name="product_image_size_medium">86dp</dimen>
+    <dimen name="tag_image_size">36dp</dimen>
+
+    <dimen name="item_spacing_micro">4dp</dimen>
+    <dimen name="item_spacing_slim">6dp</dimen>
+    <dimen name="element_spacing_normal">12dp</dimen>
+    <dimen name="content_padding_normal">16dp</dimen>
+
+    <dimen name="text_size_xxxsmall">10sp</dimen>
+    <dimen name="text_size_xsmall">13sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_xlarge">19sp</dimen>
+    <dimen name="text_size_xxlarge">21sp</dimen>
+    <dimen name="text_size_xxxlarge">24sp</dimen>
+
+</resources>
